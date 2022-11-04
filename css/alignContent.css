@@ -1,0 +1,32 @@
+body {
+    background-color: #50d890;
+}
+
+.flex-container {
+    height: 240px;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.stretch{
+    align-content: stretch;
+}
+.flex-start{
+    /* if the parent is align-items: flex-start then align-content:normal automatically otherwise align-conten:flex-start */
+
+    align-content: flex-start;
+
+}
+.flex-end{
+    align-content: flex-end;
+
+}
+.center{
+    align-content: center;
+}
+.space-around{
+    align-content: space-around;
+}
+.space-between{
+    align-content: space-between;
+}
